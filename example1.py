@@ -1,5 +1,5 @@
-x = 10
-if x > 100:
-	print 'Mayor'
-else:
-	print 'Menor'
+aux1 = input()
+aux2 = input()
+
+aux = aux2 - aux1
+print aux
