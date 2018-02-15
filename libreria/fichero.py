@@ -50,7 +50,7 @@ def gordo2(path,size,formato):
 					return aux
 		 
 def visualizar(fichero):
-	f=open(fichero)
+	f=open(fichero,'r')
 	while True:
 		linea=f.readline()
 		if not linea:break
